@@ -31,3 +31,7 @@ Running karaf client
 docker exec -it karaf client
 ```
 
+Running karaf in debug
+```
+docker run --name karaf -p 5005:5005 -d flaviof/karaf karaf debug
+```
